@@ -1,0 +1,8 @@
+<% @genres.each do |genre|%>
+    <%= link_to genre.name, genre_path(genre) %> <br>
+<%end%>
+
+<br>
+<br>
+<%= link_to "Artists", artists_path%><br>
+<%= link_to "Songs", songs_path%>
